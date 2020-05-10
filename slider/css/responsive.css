@@ -1,0 +1,236 @@
+/* Table of Contents
+==================================================
+01. #DESKTOP (960px)
+02. #Tablet (Portrait)
+03. #Mobile (Portrait)
+*/
+
+
+/* ======== #DESKTOP (960px-1289px) ======== */
+@media only screen and (min-width: 960px) and (max-width: 1300px) {
+	.width-container-pro, .nav-width-container-pro {
+		width:92%; 
+	}
+	
+	.sf-menu a {
+		padding-left:30px;
+		padding-right:30px;
+		letter-spacing:0.5px;
+	}
+
+	.sf-arrows .sf-with-ul {
+		padding-right: 40px;
+	}
+	.sf-arrows .sf-with-ul:after { 
+		right: 32px;
+	}
+	
+
+	
+}
+
+
+/* ======== #Tablet (768px-959px) ======== */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+	body #boxed-layout-pro {
+		margin-top:0px;
+	}
+	body #boxed-layout-pro {
+		width:100%;
+	}
+	.width-container-pro, body #boxed-layout-pro .width-container-pro, .nav-width-container-pro  { 
+		width:92%; 
+	}
+	body #sticky-header-pro {
+		position:relative !important;
+	}
+	
+	/* Header Styles */
+	nav#site-navigation {
+		display:none;
+	}
+	.mobile-menu-icon-pro {
+		display:block;
+	}
+	
+	
+	
+	body.search.search-results #page-title-pro h1.entry-title-pro,
+	body #page-title-pro h1.blog-post-single-progression {
+		font-size:42px;
+	}
+
+
+	body #page-title-pro h1 {
+		font-size:60px;
+	}
+	body #page-title-pro h3 {
+		font-size:19px;
+	}
+
+	body .post-container-pro h2.blog-title-pro {
+		font-size:26px;
+	}
+	
+	.progression-masonry-press .progression-masonry-item a {
+		font-size: 22px;
+	}
+	
+	body .pro-news-press-item, .pro-news-press-item.pro-last-column {
+		border-width: 0.5px;
+		border-style: solid;
+		border-color: #ebebeb;
+	}
+	
+	.progression-row h2.pro-custom-heading {
+		font-size: 42px;
+	}
+	
+	.progression-row.pro-investment-numbers h4 {
+		font-size: 40px;
+	}
+
+	
+}
+
+
+/* ======== #Mobile (0px-767px) ======== */
+@media only screen and (max-width: 767px) {
+	
+	body #boxed-layout-pro {
+		width:100%;
+	}
+	.width-container-pro, body #boxed-layout-pro .width-container-pro, .nav-width-container-pro  { 
+		width:92%; 
+	}
+
+	
+	body #sticky-header-pro {
+		position:relative !important;
+	}
+
+	#main-container-pro, #sidebar,
+	.footer-2-pro .widget, .footer-3-pro .widget, .footer-4-pro .widget, .footer-5-pro .widget,
+	.grid2column-progression, .grid3column-progression, .grid3columnbig-progression, .grid4column-progression, .grid4columnbig-progression, .grid5column-progression, .grid6column-progression  {
+		width:100%;
+		margin-right:0%;
+		margin-left:0%;
+	}
+
+	body #boxed-layout-pro {
+		margin-top:0px;
+	}
+	
+
+	/* Header Styles */
+	nav#site-navigation {
+		display:none;
+	}
+	.mobile-menu-icon-pro {
+		display:block;
+	}
+	.header-top-right-avlar,
+	.header-top-left-avlar {
+		float:none;
+		width:100%;
+		text-align:center;
+	}
+	body header .header-top-left-avlar .social-icons-widget-pro {
+		padding-left:20px !important;
+		display:inline-block;
+	}
+	.header-top-right-avlar ul {
+		text-align:center;
+		float:none;
+	}
+	.header-top-right-avlar ul li {
+		float:none;
+		display:inline-block;
+	}
+	
+	
+	body.search.search-results #page-title-pro h1.entry-title-pro,
+	body #page-title-pro h1.blog-post-single-progression {
+		font-size:28px;
+	}
+
+
+	body #page-title-pro h1 {
+		font-size:30px;
+	}
+	body #page-title-pro h3 {
+		font-size:16px;
+	}
+
+	body .post-container-pro h2.blog-title-pro {
+		font-size:22px;
+	}
+	
+	.progression-contact-container {
+		float: none;
+		width: 90%;
+	}
+	
+	.contact-container-progression .progression-contact-container.embedded-map-pro {
+		width: 100%;
+		height: 250px;
+	}
+	
+	body.single-portfolio #page-title-pro h1.entry-title-pro {
+		font-size: 40px;
+	}	
+	
+	.progression-row h2.pro-custom-heading, .progression-row.invested-philosophy-container h2.pro-custom-heading, .pro-highlight-section h5 {
+		font-size: 30px;
+	}	
+	
+	.invested-video-caption h6 {
+		font-size: 40px;	
+	}
+	
+	.invested-video-caption {
+		padding-top: 55px;
+		padding-bottom: 35px;
+	}	
+	
+	.pro-investment-numbers .numbers-grid-pro .grid4column-progression, .philisophy-container-invested .grid2column-progression {
+		float: none; 
+		width: 100%;
+		border-left-width: 0 !important;
+		border-right-width: 0 !important;
+		border-bottom: 1px solid #dedfdf !important;
+	}
+	
+	body .pro-news-press-item {
+		border: 0 !important;
+		border-bottom: 1px solid #ebebeb !important; 
+	}
+	
+	.philisophy-wrapper-pro {
+		border-right: 0 !important;
+		border-top: 0 !important;
+		padding: 5%;
+	}
+	
+	body .philisophy-container-invested .grid2column-progression {border-bottom: 0 !important;}
+	
+	body .pro-highlight-section.highlight-approach-2 .highlight-title-pro {
+		font-size: 25px;
+	}	
+	
+	body .pro-highlight-section.highlight-approach-2 .highlight-desc-pro {
+		font-size: 17px;
+	}
+	
+	.progression-row.pro-highlight-section h6:last-child{
+		font-size: 50px;
+	}
+	body .tparrows, body .tp-bullets {
+		display: none;
+	}	
+	.pro-approach-grid > div {
+		margin-bottom: 50px;
+	}
+		
+}
