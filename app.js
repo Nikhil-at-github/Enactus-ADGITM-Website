@@ -1,6 +1,7 @@
 var express=require("express"); 
 var bodyParser=require("body-parser"); 
 const mongoose = require('mongoose'); 
+const path = require('path');
 
 mongoose.connect('mongodb://localhost:27017/'); 
 
@@ -15,10 +16,14 @@ var app=express();
 
 
 app.use(bodyParser.json()); 
-app.use(express.static('public')); 
+app.use(express.static('.')); 
 app.use(bodyParser.urlencoded({ 
 	extended: true
 })); 
+app.set('view engine', 'html')
+app.get('/', (req,res)=>{
+	res.sendFile(path.join(__dirname+'/index.html'))
+})
 
 app.post('/contact_us', function(req,res){ 
     var name = req.body.name; 

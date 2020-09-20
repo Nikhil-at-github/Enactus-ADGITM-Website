@@ -1,0 +1,27 @@
+{
+  "name": "enactus-adgitm-website",
+  "version": "1.0.0",
+  "description": "Official Website of Enactus ADGITM (formely NIEC)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsnamangoyal/enactus-adgitm-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsnamangoyal/enactus-adgitm-website/issues"
+  },
+  "homepage": "https://github.com/itsnamangoyal/enactus-adgitm-website#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
