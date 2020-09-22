@@ -1,58 +1,32 @@
-var express=require("express"); 
-var bodyParser=require("body-parser"); 
-const mongoose = require('mongoose'); 
+var express = require('express');
+var bodyParser = require('body-parser');
 const path = require('path');
 
-mongoose.connect('mongodb://localhost:27017/'); 
-
-var db=mongoose.connection; 
-
-db.on('error', console.log.bind(console, "connection error")); 
-db.once('open', function(callback){ 
-	console.log("connection succeeded"); 
-}) 
-
-var app=express(); 
+var app = express();
 
 
-app.use(bodyParser.json()); 
-app.use(express.static('.')); 
-app.use(bodyParser.urlencoded({ 
-	extended: true
-})); 
-app.set('view engine', 'html')
-app.get('/', (req,res)=>{
-	res.sendFile(path.join(__dirname+'/index.html'))
+app.use(bodyParser.json());
+app.use(express.static('.'));
+app.use(
+    bodyParser.urlencoded({
+        extended: true,
+    })
+);
+app.set('view engine', 'html');
+
+//home page
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname + '/index.html'));
+});
+
+//astitva page
+app.get('/project-astitva', (req, res) => {
+    res.sendFile(path.join(__dirname + '/Astitva/index.html'));
+});
+
+
+const PORT = 3000;
+
+app.listen(PORT, ()=>{
+	console.log(`server is now running on port ${PORT}`)
 })
-
-app.post('/contact_us', function(req,res){ 
-    var name = req.body.name; 
-    var number =req.body.number; 
-	var email =req.body.email; 
-	
-
-	var data = { 
-        "name": name, 
-        "number":number, 
-		"email":email,  
-		
-	} 
-db.collection('details').insertOne(data,function(err, collection){ 
-		if (err) throw err; 
-		console.log("Record inserted Successfully"); 
-			
-	}); 
-		
-//	return res.redirect('#'); 
-}).listen(3000);  
-
-
-// app.get('/',function(req,res){ 
-// res.set({ 
-// 	'Access-control-Allow-Origin': '*'
-// 	}); 
-// return res.redirect('index.html'); 
-// })
-
-
-console.log("server listening at port 3000"); 
