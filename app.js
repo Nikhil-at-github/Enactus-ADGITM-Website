@@ -25,7 +25,7 @@ app.get('/project-astitva', (req, res) => {
 });
 
 
-const PORT = 3000;
+const PORT = 3001;
 
 app.listen(PORT, ()=>{
 	console.log(`server is now running on port ${PORT}`)

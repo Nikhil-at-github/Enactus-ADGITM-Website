@@ -1,5 +1,25 @@
-body{
-	margin: 0;
-	padding: 0;
-	font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --custom-primary-color: #fdc220;
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin: 5rem auto;
+}
+
+.heading {
+  color: var(--custom-primary-color);
+}
+.heading::before,
+.heading::after {
+  content: " - ";
 }
