@@ -24,6 +24,9 @@ app.get('/project-astitva', (req, res) => {
     res.sendFile(path.join(__dirname + '/Astitva/index.html'));
 });
 
+app.get('*', (req,res)=>{
+	res.redirect('/');
+})
 
 const PORT = 3000;
 
