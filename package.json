@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon -e html,css,js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/itsnamangoyal/enactus-adgitm-website#readme",
   "dependencies": {
+    "@types/node": "^14.11.2",
     "express": "^4.17.1",
     "mongoose": "^5.10.6"
   },

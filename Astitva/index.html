@@ -3,73 +3,195 @@
 -->
 
 <html>
-    <head>
-        <title>Project Astitva</title>
-        <!-- Google fonts: Poppins -->
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-            rel="stylesheet"
-        />
-        <!-- 	BootStrap css v4.5	 -->
-        <link
-            rel="stylesheet"
-            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-            crossorigin="anonymous"
-        />
-        <!-- 	Custom Css	 -->
-        <link rel="stylesheet" href="index.css" />
-    </head>
-    <body>
-		
-		
-        <!-- 	Header	 -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="/"><img src="../black.png" style="max-width: 100%" /> </a>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="#"
-                        >Home <span class="sr-only">(current)</span></a
-                    >
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"
-                        >Disabled</a
-                    >
-                </div>
-            </div>
-        </nav>
-        <!-- 	Hero	 -->
-        <!-- 	Project Intro	 -->
-        <!-- 	Project Heads	 -->
-        <!-- 	Magazine List	 -->
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Project Astitva | Enactus ADGITM</title>
+    <link rel="shortcut icon" href="Assets/favicon.png" />
+    <!-- Google fonts: Poppins -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- 	BootStrap css v4.5	 -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <!-- 	Custom Css	 -->
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="hero.css" />
+    <link rel="stylesheet" href="intro.css" />
+    <link rel="stylesheet" href="heads.css" />
+  </head>
+  <body>
+    <!-- 	Header	 -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand enactus-logo" href="/"
+        ><img src="/Assets/enactus-logo-white.png" alt="enactus logo" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="/">Home</a>
+          <a class="nav-link active" href="#intro">Intro</a>
+          <a class="nav-link active" href="#heads">Heads</a>
+          <a class="nav-link active" href="#magazines">Magazines</a>
+        </div>
+      </div>
+    </nav>
 
-        <!-- 	Js for bootstrap	 -->
-        <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-            crossorigin="anonymous"
-        ></script>
-        <script
-            src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+    <!-- 	Hero	 -->
+    <div class="hero" id="home">
+      <h1 class="ml11">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters">Initiative Astitva</span>
+        </span>
+      </h1>
+    </div>
+
+    <!-- 	Project Intro	 -->
+    <div class="container intro" id="intro">
+      <p class="heading display-4 text-center">What is Initiative Astitva?</p>
+      <p class="lead">
+        Astitva is an initiative taken to provide a platform to empower various
+        stakeholders highly concerned about the social evils of the society. It
+        can help in creating a sense of awareness among individuals and
+        organizations about current challenges faced by our society. It provides
+        an opportunity for Enactus ADGITM itself to be involved in
+        identification of social problems at ground level. It is an umbrella
+        project with various sub - projects :
+      </p>
+      <ul class="sub-projects-cards-wrapper">
+        <div class="card">
+          <div class="card-body">
+            <p class="card-title h5">1. Gutargu</p>
+            <p class="card-text">
+              Gutargu is a social awareness magazine which enlightens the reader
+              about an ongoing social dilemma and initiatives taken by the
+              government and individuals to deal with it.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-title h5">2. Darpan</p>
+            <p class="card-text">
+              It is a product catalogue. Organizations and individuals whose
+              products have an impact on the society can present such products
+              through this platform into the market.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <p class="card-title h5">3. Dhairyam</p>
+            <p class="card-text">
+              It is a knowledge exchange platform designed to provide novel and
+              growing SMOs to interact with subject-matter experts, consultants,
+              owners of well established businesses and people from different
+              spectrums. It aims to bridge the gap between SMOs and experts in
+              the field.
+            </p>
+          </div>
+        </div>
+      </ul>
+    </div>
+
+    <!-- 	Project Heads	 -->
+    <div class="heads container text-center" id="heads">
+      <p class="h5">Project Heads</p>
+      <p class="display-4 heading">Pillars of Astitva</p>
+      <div class="project-heads-cards-wrapper">
+        <div class="card project-head-card">
+          <img
+            src="/Assets/project-head-ishika.jpg"
+            class="card-img-top"
+            alt="project-head-ishika"
+          />
+          <div class="card-body h4">
+            <p class="card-title">Ishika Khurana</p>
+          </div>
+        </div>
+        <div class="card project-head-card">
+          <img
+            src="/Assets/project-head-paridhi.jpg"
+            class="card-img-top"
+            alt="project-head-paridhi"
+          />
+          <div class="card-body">
+            <p class="card-title h4">Paridhi Sharma</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 	Magazine List	 -->
+    <div class="container magazines table-responsive" id="magazines">
+      <p class="heading display-4 text-center">Magazines</p>
+      <table class="table table-hover table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Topic</th>
+            <th scope="col">Release</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Child Abduction</td>
+            <td>October 2020</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Child Abduction</td>
+            <td>October 2020</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Child Abduction</td>
+            <td>October 2020</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!-- 	Js for bootstrap	 -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Moving letter's dependecy js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <!-- custom moving letter js -->
+    <script src="moving-letters.js" />
+  </body>
 </html>
