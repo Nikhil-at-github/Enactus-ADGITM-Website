@@ -21,7 +21,7 @@ app.use("/project-astitva", astitva);
 const homePage = require("./Home");
 app.use("/", homePage);
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
   console.log(`server is now running on port ${PORT}`);
