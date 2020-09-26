@@ -19,16 +19,16 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname + '/index.html'));
 });
 
+
+const astitva = require('./Astitva/');
 //astitva page
-app.get('/project-astitva', (req, res) => {
-    res.sendFile(path.join(__dirname + '/Astitva/index.html'));
-});
+app.use('/project-astitva', astitva)
 
 app.get('*', (req,res)=>{
 	res.redirect('/');
 })
 
-const PORT = 3001;
+const PORT = 3000;
 
 app.listen(PORT, ()=>{
 	console.log(`server is now running on port ${PORT}`)
