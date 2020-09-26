@@ -1,586 +1,658 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- -Meta Tags- -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0"
+        />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="author" content="" />
+        <!-- -Page Title- -->
+        <title>Enactus ADGITM</title>
+        <!-- ====== -Google Fonts- ====== -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Serif"
+            rel="stylesheet"
+        />
+        <!-- ====== -End Google Fonts- ====== -->
+        <!-- ====== -CSS- ====== -->
+        <!-- -Normalize css- -->
+        <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+        <!-- -Animate css- -->
+        <link rel="stylesheet" type="text/css" href="css/animate.css" />
+        <!-- -Font Awesome- -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada"
+            rel="stylesheet"
+        />
+        <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet" />
+        <!-- -Ionicons- -->
+        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
+        <!-- -Bootstrap v3.3.1- -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous"
+        />
+        <!-- Slick -->
+        <link rel="stylesheet" href="css/slick.css" />
+        <link rel="stylesheet" href="css/slick-theme.css" />
+        <!-- -Custom style CSS- -->
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <!-- -Custom responsive style CSS- -->
+        <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+        <!-- ====== -End CSS- ====== -->
+        <link rel="stylesheet" href="slider/style.css" />
+        <link rel="stylesheet" href="slider/css/responsive.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="slider/rs-plugin/css/settings.css"
+            media="screen"
+        />
+        <link rel="stylesheet" type="text/css" href="slider/rs-plugin/css/navigation.css" />
+        <!-- -Favicon- -->
+        <link rel="shortcut icon" href="img/favicon.png" />
+    </head>
 
-<head>
-    <!-- -Meta Tags- -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale = 1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <!-- -Page Title- -->
-    <title>Enactus ADGITM</title>
-    <!-- ====== -Google Fonts- ====== -->
-    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|PT+Serif" rel="stylesheet">
-    <!-- ====== -End Google Fonts- ====== -->
-    <!-- ====== -CSS- ====== -->
-    <!-- -Normalize css- -->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <!-- -Animate css- -->
-    <link rel="stylesheet" type="text/css" href="css/animate.css">
-    <!-- -Font Awesome- -->
-    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Unica+One" rel="stylesheet">
-    <!-- -Ionicons- -->
-    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
-    <!-- -Bootstrap v3.3.1- -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Slick -->
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <!-- -Custom style CSS- -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- -Custom responsive style CSS- -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <!-- ====== -End CSS- ====== -->
-    <link rel="stylesheet" href="slider/style.css">
-    <link rel="stylesheet" href="slider/css/responsive.css">
-    <link rel="stylesheet" type="text/css" href="slider/rs-plugin/css/settings.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="slider/rs-plugin/css/navigation.css"> 
-    <!-- -Favicon- -->
-    <link rel="shortcut icon" href="img/favicon.png">
-</head>
-
-<body>
-<!-- LOADER -->
-<div class="loading">
-    <div class="animation">
-        <img src="white.png" alt="Enactus NIEC" class="t1">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-</div>
-<!-- HEADER BEGIN -->
-<header class="header">
-    <div class="navbar">
-        <div class="current-left">
-            <div class="logo">
-                <img class="big transition" src="white.png" alt="Enactus NIEC" id="Logo1">
+    <body>
+        <!-- LOADER -->
+        <div class="loading">
+            <div class="animation">
+                <img src="white.png" alt="Enactus NIEC" class="t1" />
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
-        <div class="current-right">
-            <nav class="menu">
-                <ul>
-                    <li><a href="#" data-scroll>Home</a></li>
-                    <li><a href="#about" data-scroll>About</a></li>
-                    <li><a href="#adventages" data-scroll>Aim</a></li>
-                    <li><a href="#team" data-scroll>Team</a></li>
-                    <li><a href="#testimonials" data-scroll>Testimonials</a></li>
-                    <li><a href="#project" data-scroll>Projects</a></li>
-                    <li><a href="#contact" data-scroll>Contact</a></li>
-                </ul>
-            </nav>
-            <nav class="mobilenav">
-                <ul>
-                    <li class="close-menu"><a href="#" data-scroll>Home</a></li>
-                    <li class="close-menu"><a href="#about" data-scroll>About</a></li>
-                    <li class="close-menu"><a href="#adventages" data-scroll>Aim</a></li>
-                    <li class="close-menu"><a href="#team" data-scroll>Team</a></li>
-                    <li class="close-menu"><a href="#testimonials" data-scroll>Testimonials</a></li>
-                    <li class="close-menu"><a href="#project" data-scroll>Projects</a></li>
-                    <li class="close-menu"><a href="#contact" data-scroll>Contact</a></li>
-                </ul>
-            </nav>
-            <a href="javascript:void(0)" class="icon">
-                <div class="hamburger">
-                    <div class="menui top-menu"></div>
-                    <div class="menui mid-menu"></div>
-                    <div class="menui bottom-menu"></div>
+        <!-- HEADER BEGIN -->
+
+        <header class="header">
+            <div class="marquee">
+                <p>OUR OWN E-MAGAZINE UNDER PROJECT ASTITVA COMING OUT ON 04/10/20</p>
+            </div>
+            <div class="navbar">
+                <div class="current-left">
+                    <div class="logo">
+                        <img class="big transition" src="white.png" alt="Enactus NIEC" id="Logo1" />
+                    </div>
                 </div>
-            </a>
-        </div>
-    </div>
-</header>
-<!-- Owl Slider -->
-<div id="content-pro" style="padding: 0">
-    <div class="page-content-pro">
-        <div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container">
-            <!-- START REVOLUTION SLIDER fullwidth mode -->
-            <div id="rev_slider_1_1" class="rev_slider fullwidthabanner">
-                <ul class="my-slider">
-                    <!-- SLIDE 1 -->
-                    <li data-index="rs-1" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="images/demo/slide2.jpg" data-rotate="0"
-                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                        data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="slider/images/demo/slide2.jpg" alt="" title="Home" data-bgposition="center center"
-                             data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="4" class="rev-slidebg"
-                             data-no-retina>
-                        <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
-                        <h2 class="tp-caption tp-resizeme align-header" id="slide-1-layer-1" 
-                            data-x="167"
-                            data-y="center" data-voffset="-75"
-                            data-width="['auto']"
-                            data-height="['auto']"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                            data-transform_out="opacity:0;s:300;"
-                            data-start="300"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            data-elementdelay="0.1"
-                            style="z-index: 5; white-space: nowrap; font-size: 120px; line-height: 140px; font-weight: 400; color: rgba(239, 242, 255, 0.90);font-family:Unica One;text-align:center;letter-spacing:25px; text-shadow: 2px 0 0 black">
-                            UPGRADE THE </h2>
-
-                        <!-- LAYER NR. 2 -->
-                        <h2 class="tp-caption tp-resizeme align-header" id="slide-1-layer-2"
-                            data-x="243"
-                            data-y="center" data-voffset="85"
-                            data-width="['auto']"
-                            data-height="['auto']"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                            data-transform_out="opacity:0;s:300;"
-                            data-start="800"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            data-elementdelay="0.1"
-                            style="z-index: 6; white-space: nowrap; font-size: 110px; line-height: 140px; font-weight: 400; color: rgba(239, 242, 255, 1);font-family:Unica One;text-align:center;letter-spacing:110px; text-shadow: 2px 0 0 black">
-                            WORLD </h2>
-                    </li>
-                    <!-- SLIDE 2 -->
-                    <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="images/demo/slide1.jpg" data-rotate="0"
-                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                        data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="slider/images/demo/slide1.jpg" alt="" title="Home" data-bgposition="center center"
-                             data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="4" class="rev-slidebg"
-                             data-no-retina>
-                        <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
-                        <h2 class="tp-caption tp-resizeme align-header" id="slide-2-layer-1"
-                            data-x="178"
-                            data-y="center" data-voffset="25"
-                            data-width="['auto']"
-                            data-height="['auto']"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
-                            data-transform_out="opacity:0;s:300;"
-                            data-start="300"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            data-elementdelay="0.1"
-                            style="z-index: 5; white-space: nowrap; font-size: 110px; line-height: 140px; font-weight: 400; color: rgba(239, 242, 255, 1.00);font-family:Unica One;text-align:center; text-shadow: 2px 0 0 black">
-                            LET'S TALK BUSINESS </h2>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption tp-resizeme align-short" id="slide-2-layer-2"
-                             data-x="center"
-                             data-hoffset=""
-                             data-y="325"
-                             data-width="['auto']"
-                             data-height="['auto']"
-                             data-transform_idle="o:1;"
-                             data-transform_in="y:-50px;opacity:0;s:1200;e:Power3.easeInOut;"
-                             data-transform_out="opacity:0;s:300;"
-                             data-start="2000"
-                             data-splitin="none"
-                             data-splitout="none"
-                             data-responsive_offset="on"
-                             style="z-index: 6; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 400; color: rgba(255, 255, 255, 0.90);letter-spacing:2px;">
-                            TOGETHER WE CAN ACHIEVE MORE
+                <div class="current-right">
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#" data-scroll>Home</a></li>
+                            <li><a href="#about" data-scroll>About</a></li>
+                            <li><a href="#adventages" data-scroll>Aim</a></li>
+                            <li><a href="#project" data-scroll>Projects</a></li>
+                            <li><a href="#team" data-scroll>Team</a></li>
+                            <li><a href="#testimonials" data-scroll>Testimonials</a></li>
+                            <li><a href="#contact" data-scroll>Contact</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="mobilenav">
+                        <ul>
+                            <li class="close-menu"><a href="#" data-scroll>Home</a></li>
+                            <li class="close-menu"><a href="#about" data-scroll>About</a></li>
+                            <li class="close-menu"><a href="#adventages" data-scroll>Aim</a></li>
+                            <li class="close-menu"><a href="#project" data-scroll>Projects</a></li>
+                            <li class="close-menu"><a href="#team" data-scroll>Team</a></li>
+                            <li class="close-menu">
+                                <a href="#testimonials" data-scroll>Testimonials</a>
+                            </li>
+                            <li class="close-menu"><a href="#contact" data-scroll>Contact</a></li>
+                        </ul>
+                    </nav>
+                    <a href="javascript:void(0)" class="icon">
+                        <div class="hamburger">
+                            <div class="menui top-menu"></div>
+                            <div class="menui mid-menu"></div>
+                            <div class="menui bottom-menu"></div>
                         </div>
-                    </li>
-                    <!-- SLIDE 3 -->
-                    <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="images/demo/slide2.jpg" data-rotate="0"
-                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                        data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="slider/images/demo/slide3.jpg" alt="" title="Home" data-bgposition="center center"
-                             data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="4" class="rev-slidebg"
-                             data-no-retina>
-                        <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
-                        <h2 class="tp-caption tp-resizeme align-header" id="slide-3-layer-1"
-                            data-x="167"
-                            data-y="center" data-voffset="-75"
-                            data-width="['auto']"
-                            data-height="['auto']"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                            data-transform_out="opacity:0;s:300;"
-                            data-start="300"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            data-elementdelay="0.1"
-                            style="z-index: 5; white-space: nowrap; font-size: 110px; line-height: 140px; font-weight: 400; color: rgba(239, 242, 255, 0.90);font-family:Unica One;text-align:center;letter-spacing:50px; text-shadow: 2px 0 0 black;">
-                            THE WORLD </h2>
-
-                        <!-- LAYER NR. 2 -->
-                        <h2 class="tp-caption tp-resizeme align-header" id="slide-3-layer-2"
-                            data-x="center"
-                            data-y="center" data-voffset="85"
-                            data-width="['auto']"
-                            data-height="['auto']"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                            data-transform_out="opacity:0;s:300;"
-                            data-start="800"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            data-elementdelay="0.1"
-                            style="z-index: 6; white-space: nowrap; font-size: 110px; line-height: 140px; font-weight: 400; color: rgba(239, 242, 255, 1);font-family:Unica One;text-align:center;letter-spacing:100px; text-shadow: 2px 0 0 black;">
-                            NEEDS US </h2>
-                    </li>
-                    <!-- SLIDE 4 -->
-                    <li data-index="rs-4" data-transition="fade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="images/demo/slide1.jpg" data-rotate="0"
-                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                        data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="slider/images/demo/slide4.jpg" alt="" title="Home" data-bgposition="center center"
-                             data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="4" class="rev-slidebg"
-                             data-no-retina>
-                        <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
-                        <h2 class="tp-caption tp-resizeme align-header" id="slide-4-layer-1"
-                            data-x="center"
-                            data-y="center" data-voffset="25"
-                            data-width="['auto']"
-                            data-height="['auto']"
-                            data-transform_idle="o:1;"
-                            data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
-                            data-transform_out="opacity:0;s:300;"
-                            data-start="300"
-                            data-splitin="chars"
-                            data-splitout="none"
-                            data-responsive_offset="on"
-                            data-elementdelay="0.1"
-                            style="z-index: 5; white-space: nowrap; font-size: 110px; line-height: 140px; font-weight: 400; color: rgba(239, 242, 255, 1.00);font-family:Unica One;text-align:center; text-shadow: 2px 0 0 black">
-                            TAKE THE RIGHT ACTION </h2>
-                    </li>
-                </ul>
-            </div><!-- END REVOLUTION SLIDER -->
-        </div>
-    </div>
-</div>
-<div class="clearfix"></div>
-<!-- ABOUT SECTION -->
-<section id="about">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding align-left">
-        <div class="social-overlay">
-            <ul>
-                <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-            </ul>
-        </div>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/i4.jpg"></div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding bck align-right">
-        <div class="about-content">
-            <h2 class="section-title">About us</h2>
-            <h1>Welcome to Enactus ADGITM</h1>
-            <p>Enactus is an international non-profit organization that nurtures managerial skills of students. It channelizes the energy of these future leaders towards constructing innovative business models that improve the quality of life and standard of living of the people in need. Enactus creates and implements community empowerment projects around the globe. The experience not only transforms lives, but also helps students develop the skills that are essential in this challenging, corporate world. </p>
-            <a class="btn btn-custom-services">Contact <i class="fa fa-chevron-right"></i></a>
-        </div>
-    </div>
-</section>
-<!-- ADVENTAGES SECTION -->
-<section id="adventages">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding bckgr">
-        <div class="adventages-content">
-            <h2 class="section-title">Our Aim</h2>
-            <h1>Who Are We?</h1>
-            <div class="reason-box">
-                <div class="number-box">
-                    <span>1</span>
+                    </a>
                 </div>
-                <h4>ENTREPRENEURIAL</h4>
-                <p>Initiating business innovation with integrity and passion.</p>
             </div>
-            <div class="reason-box">
-                <div class="number-box">
-                    <span>2</span>
-                </div>
-                <h4>ACTION</h4>
-                <p>The experience of social impact that sparks social enterprise.</p>
-            </div>
-            <div class="reason-box">
-                <div class="number-box">
-                    <span>3</span>
-                </div>
-                <h4>US</h4>
-                <p>Student, academic and business leaders collaborating to create a better world..</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding align-advantages">
-        <div class="parallax-adventages" data-parallax="scroll" data-image-src="img/adventure2.jpg"></div>
-    </div>
-</section>
+        </header>
 
-<!-- OUR TEAM SECTION -->
+        <!-- Owl Slider -->
+        <div id="content-pro" style="padding: 0;">
+            <div class="page-content-pro">
+                <div
+                    id="rev_slider_1_1_wrapper"
+                    class="rev_slider_wrapper fullwidthbanner-container"
+                >
+                    <!-- START REVOLUTION SLIDER fullwidth mode -->
+                    <div id="rev_slider_1_1" class="rev_slider fullwidthabanner">
+                        <ul class="my-slider">
+                            <!-- SLIDE 1 -->
+                            <li
+                                data-index="rs-1"
+                                data-transition="fade"
+                                data-slotamount="default"
+                                data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-easein="default"
+                                data-easeout="default"
+                                data-masterspeed="default"
+                                data-thumb="images/demo/slide2.jpg"
+                                data-rotate="0"
+                                data-saveperformance="off"
+                                data-title="Slide"
+                                data-param1=""
+                                data-param2=""
+                                data-param3=""
+                                data-param4=""
+                                data-param5=""
+                                data-param6=""
+                                data-param7=""
+                                data-param8=""
+                                data-param9=""
+                                data-param10=""
+                                data-description=""
+                            >
+                                <!-- MAIN IMAGE -->
+                                <img
+                                    src="slider/images/demo/slide2.jpg"
+                                    alt=""
+                                    title="Home"
+                                    data-bgposition="center center"
+                                    data-bgfit="cover"
+                                    data-bgrepeat="no-repeat"
+                                    data-bgparallax="4"
+                                    class="rev-slidebg"
+                                    data-no-retina
+                                />
+                                <!-- LAYERS -->
 
-<section class="track" id="team">
-    <div class="containers">
-		<div class="row aligner">
-    		<h2 class="normal-section-title">
-                Our Team
-            </h2>
-            <h4 class="normal-section-subtitle">Meet the people behind the magic</h4>
-            <div class="center">
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal1">
-                        <img class="po" src="img/ayush.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Dr. Preety Verma Dhaka</h4>
-                    <p>Enactus Faculty Coordinator</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal1">
-                        <img class="po" src="img/ayush.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Aayush Gill</h4>
-                    <p>Senior Advisory</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal1">
-                        <img class="po" src="img/Anshul.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Anshul </h4>
-                    <p>Senior Advisory</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal1">
-                        <img class="po" src="img/tanyanew.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Tanya Nischal</h4>
-                    <p>President</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal2">
-                        <img class="po" src="img/kritika.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Kritika Gogia</h4>
-                    <p>Vice President</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal2">
-                        <img class="po" src="img/saurabh.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Saurabh Dhauni</h4>
-                    <p>Vice President</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal3">
-                        <img class="po" src="img/mehak.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Mehak Gulati</h4>
-                    <p>Head of External Affairs</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal4">
-                        <img class="po" src="img/isha.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Isha Nailwal</h4>
-                    <p>General Secretary</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal5">
-                        <img class="po" src="img/ishika.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Ishika Khurana</h4>
-                    <p>Project Head</p>
-                </div> 
-                
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal6">
-                        <img class="po" src="img/satvik.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Satvik Sharma</h4>
-                    <p>Project Head</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal7">
-                        <img class="po" src="img/manvinew2.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Manvi Gambhir</h4>
-                    <p>Project Head</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal8">
-                        <img class="po" src="img/arshnew.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Arsh Ahmed</h4>
-                    <p>Department Head(Marketing & Campaign)<p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal9">
-                        <img class="po" src="img/paridhi.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Paridhi Sharma</h4>
-                    <p>Department Head(Marketing & Campaign)</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal10">
-                        <img class="po" src="img/arjun.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Arjun Narang</h4>
-                    <p>Department Head(Content)</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal11">
-                        <img class="po" src="img/akshat.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Akshat Dhaundiyal</h4>
-                    <p>Department Head(Gaphics & Photography)</p>
-                </div>
-                <div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal12">
-                        <img class="po" src="img/akshit.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Akshit Verma</h4>
-                    <p>Department Head(Gaphics & Photography)</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal11">
-                        <img class="po" src="img/aditya.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Aditya Singh</h4>
-                    <p>Department Head(Sponserships)</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal11">
-                        <img class="po" src="img/devnew.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Dev Chetal</h4>
-                    <p>Department Head(Bussiness Development)</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal11">
-                        <img class="po" src="img/muskan.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Muskan Aggarwal</h4>
-                    <p>Department Head(Volunteering)</p>
-                </div>
-				<div class="team-member">
-                    <div class="the-team-member-photo" data-toggle="modal" data-target="#myModal11">
-                        <img class="po" src="img/kartik.jpg" alt="Team Member Photo 01">
-                    </div>
-                    <h4>Kartik Koundal</h4>
-                    <p>Department Head(Volunteering)</p>
-                </div>
-                
+                                <!-- LAYER NR. 1 -->
+                                <h2
+                                    class="tp-caption tp-resizeme align-header"
+                                    id="slide-1-layer-1"
+                                    data-x="167"
+                                    data-y="center"
+                                    data-voffset="-75"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="300"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    data-elementdelay="0.1"
+                                    style="
+                                        z-index: 5;
+                                        white-space: nowrap;
+                                        font-size: 120px;
+                                        line-height: 140px;
+                                        font-weight: 400;
+                                        color: rgba(239, 242, 255, 0.9);
+                                        font-family: Unica One;
+                                        text-align: center;
+                                        letter-spacing: 25px;
+                                        text-shadow: 2px 0 0 black;
+                                    "
+                                >
+                                    UPGRADE THE
+                                </h2>
 
-            </div>
-        </div>
+                                <!-- LAYER NR. 2 -->
+                                <h2
+                                    class="tp-caption tp-resizeme align-header"
+                                    id="slide-1-layer-2"
+                                    data-x="243"
+                                    data-y="center"
+                                    data-voffset="85"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="800"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    data-elementdelay="0.1"
+                                    style="
+                                        z-index: 6;
+                                        white-space: nowrap;
+                                        font-size: 110px;
+                                        line-height: 140px;
+                                        font-weight: 400;
+                                        color: rgba(239, 242, 255, 1);
+                                        font-family: Unica One;
+                                        text-align: center;
+                                        letter-spacing: 110px;
+                                        text-shadow: 2px 0 0 black;
+                                    "
+                                >
+                                    WORLD
+                                </h2>
+                            </li>
+                            <!-- SLIDE 2 -->
+                            <li
+                                data-index="rs-2"
+                                data-transition="fade"
+                                data-slotamount="default"
+                                data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-easein="default"
+                                data-easeout="default"
+                                data-masterspeed="default"
+                                data-thumb="images/demo/slide1.jpg"
+                                data-rotate="0"
+                                data-saveperformance="off"
+                                data-title="Slide"
+                                data-param1=""
+                                data-param2=""
+                                data-param3=""
+                                data-param4=""
+                                data-param5=""
+                                data-param6=""
+                                data-param7=""
+                                data-param8=""
+                                data-param9=""
+                                data-param10=""
+                                data-description=""
+                            >
+                                <!-- MAIN IMAGE -->
+                                <img
+                                    src="slider/images/demo/slide1.jpg"
+                                    alt=""
+                                    title="Home"
+                                    data-bgposition="center center"
+                                    data-bgfit="cover"
+                                    data-bgrepeat="no-repeat"
+                                    data-bgparallax="4"
+                                    class="rev-slidebg"
+                                    data-no-retina
+                                />
+                                <!-- LAYERS -->
 
-	</div>
-</section>
+                                <!-- LAYER NR. 1 -->
+                                <h2
+                                    class="tp-caption tp-resizeme align-header"
+                                    id="slide-2-layer-1"
+                                    data-x="178"
+                                    data-y="center"
+                                    data-voffset="25"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="300"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    data-elementdelay="0.1"
+                                    style="
+                                        z-index: 5;
+                                        white-space: nowrap;
+                                        font-size: 110px;
+                                        line-height: 140px;
+                                        font-weight: 400;
+                                        color: rgba(239, 242, 255, 1);
+                                        font-family: Unica One;
+                                        text-align: center;
+                                        text-shadow: 2px 0 0 black;
+                                    "
+                                >
+                                    LET'S TALK BUSINESS
+                                </h2>
 
-<!-- TESTIMONIALS -->
-<section id="testimonials">
-    <div class="parallax-testimonial" data-parallax="scroll" data-image-src="img/comments04.png">
-        <div class="containers">
-            <div class="row aligner">
-                <h2 class="normal-section-title">
-                    Testimonials
-                </h2>
-                <h4 class="normal-section-subtitle">What people say about us</h4>
-                <div class="testimonials">
-                    <div class="the-testimonial">
-                        <p class="text-from-client">"It's not about ideas, It's about making these ideas happen. Being
-                            at enactus not only helps putting your ideas forth but the challenges faced,make you a more
-                            resourceful person- looking for possibilities rather than settling for what's in front of
-                            you. It is a grooming experience where you strive towards a noble aim and grow from
-                            within."</p>
-                        <div class="client-info">
-                            <img src="img/ss.png" alt="Photo">
-                            <h4>Sagarika Sachdeva
-                                <small>Enactus ADGITM</small>
-                            </h4>
-                        </div>
+                                <!-- LAYER NR. 2 -->
+                                <div
+                                    class="tp-caption tp-resizeme align-short"
+                                    id="slide-2-layer-2"
+                                    data-x="center"
+                                    data-hoffset=""
+                                    data-y="325"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="y:-50px;opacity:0;s:1200;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="2000"
+                                    data-splitin="none"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    style="
+                                        z-index: 6;
+                                        white-space: nowrap;
+                                        font-size: 16px;
+                                        line-height: 16px;
+                                        font-weight: 400;
+                                        color: rgba(255, 255, 255, 0.9);
+                                        letter-spacing: 2px;
+                                    "
+                                >
+                                    TOGETHER WE CAN ACHIEVE MORE
+                                </div>
+                            </li>
+                            <!-- SLIDE 3 -->
+                            <li
+                                data-index="rs-3"
+                                data-transition="fade"
+                                data-slotamount="default"
+                                data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-easein="default"
+                                data-easeout="default"
+                                data-masterspeed="default"
+                                data-thumb="images/demo/slide2.jpg"
+                                data-rotate="0"
+                                data-saveperformance="off"
+                                data-title="Slide"
+                                data-param1=""
+                                data-param2=""
+                                data-param3=""
+                                data-param4=""
+                                data-param5=""
+                                data-param6=""
+                                data-param7=""
+                                data-param8=""
+                                data-param9=""
+                                data-param10=""
+                                data-description=""
+                            >
+                                <!-- MAIN IMAGE -->
+                                <img
+                                    src="slider/images/demo/slide3.jpg"
+                                    alt=""
+                                    title="Home"
+                                    data-bgposition="center center"
+                                    data-bgfit="cover"
+                                    data-bgrepeat="no-repeat"
+                                    data-bgparallax="4"
+                                    class="rev-slidebg"
+                                    data-no-retina
+                                />
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <h2
+                                    class="tp-caption tp-resizeme align-header"
+                                    id="slide-3-layer-1"
+                                    data-x="167"
+                                    data-y="center"
+                                    data-voffset="-75"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="300"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    data-elementdelay="0.1"
+                                    style="
+                                        z-index: 5;
+                                        white-space: nowrap;
+                                        font-size: 110px;
+                                        line-height: 140px;
+                                        font-weight: 400;
+                                        color: rgba(239, 242, 255, 0.9);
+                                        font-family: Unica One;
+                                        text-align: center;
+                                        letter-spacing: 50px;
+                                        text-shadow: 2px 0 0 black;
+                                    "
+                                >
+                                    THE WORLD
+                                </h2>
+
+                                <!-- LAYER NR. 2 -->
+                                <h2
+                                    class="tp-caption tp-resizeme align-header"
+                                    id="slide-3-layer-2"
+                                    data-x="center"
+                                    data-y="center"
+                                    data-voffset="85"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="800"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    data-elementdelay="0.1"
+                                    style="
+                                        z-index: 6;
+                                        white-space: nowrap;
+                                        font-size: 110px;
+                                        line-height: 140px;
+                                        font-weight: 400;
+                                        color: rgba(239, 242, 255, 1);
+                                        font-family: Unica One;
+                                        text-align: center;
+                                        letter-spacing: 100px;
+                                        text-shadow: 2px 0 0 black;
+                                    "
+                                >
+                                    NEEDS US
+                                </h2>
+                            </li>
+                            <!-- SLIDE 4 -->
+                            <li
+                                data-index="rs-4"
+                                data-transition="fade"
+                                data-slotamount="default"
+                                data-hideafterloop="0"
+                                data-hideslideonmobile="off"
+                                data-easein="default"
+                                data-easeout="default"
+                                data-masterspeed="default"
+                                data-thumb="images/demo/slide1.jpg"
+                                data-rotate="0"
+                                data-saveperformance="off"
+                                data-title="Slide"
+                                data-param1=""
+                                data-param2=""
+                                data-param3=""
+                                data-param4=""
+                                data-param5=""
+                                data-param6=""
+                                data-param7=""
+                                data-param8=""
+                                data-param9=""
+                                data-param10=""
+                                data-description=""
+                            >
+                                <!-- MAIN IMAGE -->
+                                <img
+                                    src="slider/images/demo/slide4.jpg"
+                                    alt=""
+                                    title="Home"
+                                    data-bgposition="center center"
+                                    data-bgfit="cover"
+                                    data-bgrepeat="no-repeat"
+                                    data-bgparallax="4"
+                                    class="rev-slidebg"
+                                    data-no-retina
+                                />
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <h2
+                                    class="tp-caption tp-resizeme align-header"
+                                    id="slide-4-layer-1"
+                                    data-x="center"
+                                    data-y="center"
+                                    data-voffset="25"
+                                    data-width="['auto']"
+                                    data-height="['auto']"
+                                    data-transform_idle="o:1;"
+                                    data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1000;e:Power3.easeInOut;"
+                                    data-transform_out="opacity:0;s:300;"
+                                    data-start="300"
+                                    data-splitin="chars"
+                                    data-splitout="none"
+                                    data-responsive_offset="on"
+                                    data-elementdelay="0.1"
+                                    style="
+                                        z-index: 5;
+                                        white-space: nowrap;
+                                        font-size: 110px;
+                                        line-height: 140px;
+                                        font-weight: 400;
+                                        color: rgba(239, 242, 255, 1);
+                                        font-family: Unica One;
+                                        text-align: center;
+                                        text-shadow: 2px 0 0 black;
+                                    "
+                                >
+                                    TAKE THE RIGHT ACTION
+                                </h2>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="the-testimonial">
-                        <p class="text-from-client">"Enactus ADGITM, in a very short time has become like a family to me.
-                            Together, we learn, discuss and explore ideas to improve human conditions and enable
-                            sustainable human progress and then we work towards achieving it. I feel content to perceive
-                            how our small efforts can bring joy to the communities we help. Enactus ADGITM serves as a
-                            platform for us to develop into more effective and value driven leaders."</p>
-                        <div class="client-info">
-                            <img src="img/ds.png" alt="Photo">
-                            <h4>Devina Shah
-                                <small>Enactus ADGITM</small>
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="the-testimonial">
-                        <p class="text-from-client">"Enactus means a lot to me since I have always been interested in
-                            entrepreneurial endeavours, and I have also been altruistic all my life. I don't think there
-                            is anything better than using business models to uplift society and help others, like we try
-                            to do in Enactus. This society makes me feel like a good person, and I feel that is what
-                            really matters!"</p>
-                        <div class="client-info">
-                            <img src="img/vy.png" alt="Photo">
-                            <h4>Vaibhav Yadav
-                                <small>Enactus ADGITM</small>
-                            </h4>
-                        </div>
-                    </div>
+                    <!-- END REVOLUTION SLIDER -->
                 </div>
             </div>
         </div>
-    </div>
-</section>
 
-<!--Projects-->
-<section id="project">
-    <div class = "container">
-        <div class="row">
-        <h2 class="normal-section-title">
-                Our Projects
-            </h2>
-            <h4 class="normal-section-subtitle">Our Efforts, The Magic Happens</h4>
-		    <div class="MultiCarousel" data-items="1,3,3,3" data-slide="1" id="MultiCarousel"  data-interval="1000">
-                <div class="MultiCarousel-inner">
-                    <div class="item">
-                        <div class="pad15" data-toggle="modal" data-target=".project1">
-                            <img src = "List-Slider/img/p1.jpg">
+        <div class="clearfix"></div>
+        <!-- ABOUT SECTION -->
+        <section id="about">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding align-left">
+                <div class="social-overlay">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-google-plus-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div
+                    class="parallax-window"
+                    data-parallax="scroll"
+                    data-image-src="img/i4.jpg"
+                ></div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding bck align-right">
+                <div class="about-content">
+                    <h2 class="section-title">About us</h2>
+                    <h1>Welcome to Enactus ADGITM</h1>
+                    <p>
+                        Enactus is an international non-profit organization that nurtures managerial
+                        skills of students. It channelizes the energy of these future leaders
+                        towards constructing innovative business models that improve the quality of
+                        life and standard of living of the people in need. Enactus creates and
+                        implements community empowerment projects around the globe. The experience
+                        not only transforms lives, but also helps students develop the skills that
+                        are essential in this challenging, corporate world.
+                    </p>
+                    <a class="btn btn-custom-services"
+                        >Contact <i class="fa fa-chevron-right"></i
+                    ></a>
+                </div>
+            </div>
+        </section>
+        <!-- ADVENTAGES SECTION -->
+        <section id="adventages">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding bckgr">
+                <div class="adventages-content">
+                    <h2 class="section-title">Our Aim</h2>
+                    <h1>Who Are We?</h1>
+                    <div class="reason-box">
+                        <div class="number-box">
+                            <span>1</span>
                         </div>
+                        <h4>ENTREPRENEURIAL</h4>
+                        <p>Initiating business innovation with integrity and passion.</p>
                     </div>
-                    <div class="item">
-                        <div class="pad15" data-toggle="modal" data-target=".project2">
-                            <img src = "List-Slider/img/p2.jpg">
+                    <div class="reason-box">
+                        <div class="number-box">
+                            <span>2</span>
                         </div>
+                        <h4>ACTION</h4>
+                        <p>The experience of social impact that sparks social enterprise.</p>
                     </div>
-                    <div class="item">
+                    <div class="reason-box">
+                        <div class="number-box">
+                            <span>3</span>
+                        </div>
+                        <h4>US</h4>
+                        <p>
+                            Student, academic and business leaders collaborating to create a better
+                            world..
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding align-advantages">
+                <div
+                    class="parallax-adventages"
+                    data-parallax="scroll"
+                    data-image-src="img/adventure2.jpg"
+                ></div>
+            </div>
+        </section>
+
+        <!--Projects-->
+        <section id="project">
+            <div class="container">
+                <div class="row">
+                    <h2 class="normal-section-title">
+                        Our Projects
+                    </h2>
+                    <h4 class="normal-section-subtitle">Our Efforts, The Magic Happens</h4>
+                    <div class="MultiCarousel" data-items="1,3,3,3" data-slide="1"
+                        id="MultiCarousel" data-interval="1000">
+                        <div class="MultiCarousel-inner">
+                            <div class="item">
+                                <div class="pad15" data-toggle="modal" data-target=".project2">
+                                    <img src="List-Slider/img/p2.jpg" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15" data-toggle="modal" data-target=".project3">
+                                    <img src="List-Slider/img/entrinus/entrinuslogo.png" />
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="pad15" data-toggle="modal" data-target=".project1">
+                                    <img src="List-Slider/img/p1.jpg" />
+                                </div>
+                            </div>
+							<div class="item">
+                                <div class="pad15" data-toggle="modal" data-target=".project4">
+                                    <img src="List-Slider/img/p1.jpg" />
+                                </div>
+                            </div>
+                            <!--  <div class="item">
                         <div class="pad15" data-toggle="modal" data-target=".project3">
                             <img src = "List-Slider/img/p3.jpg">
                         </div>
-                    </div>
+                    </div> 
                     <div class="item">
                         <div class="pad15" data-toggle="modal" data-target=".project4">
                             <img src = "List-Slider/img/p4.jpg">
@@ -590,91 +662,444 @@
                         <div class="pad15" data-toggle="modal" data-target=".project5">
                             <img src = "List-Slider/img/p5.jpg">
                         </div>
-                    </div>
-                    <div class="item">
-                        <div class="pad15" data-toggle="modal" data-target=".project6">
-                            <img src = "List-Slider/img/p6.jpg">
+                    </div> -->
+                            <div class="item">
+                                <div class="pad15" data-toggle="modal" data-target=".project6">
+                                    <img src="List-Slider/img/p6.jpg" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="leftLst">
+                            <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+                        </div>
+                        <div class="rightLst">
+                            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
                         </div>
                     </div>
                 </div>
-                <div class="leftLst"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span></div>
-                <div class="rightLst"><span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span></div>
-            </div>
-	    </div>
 
-        <div class="modal fade project1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-            <div class="modal-dialog modal-lg" role="document">
-                <div class="modal-content">
-                    <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px; color: white">PROJECT RANGMANCH</h1></div>
-			<div class = "container-fluid">
-			    <div class = "row">
-				<div class = "modal-half-1 col-xs-12 col-md-8">
-				    <div id="projectpic-carousel" class="carousel slide" data-ride="carousel">
-				    <!-- Indicators -->
-					<ol class="carousel-indicators">
-					    <li data-target="#projectpic-carousel" data-slide-to="0" class="active"></li>
-					    <li data-target="#projectpic-carousel" data-slide-to="1"></li>
-					    <li data-target="#projectpic-carousel" data-slide-to="2"></li>
-					</ol>
+                <div class="modal fade project1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" >
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="project-header" style="font-family: Century gothic; text-align: center; margin: 0px; color: white; ">
+                                    PROJECT RANGMANCH
+                                </h1>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="modal-half-1 col-xs-12 col-md-8">
+                                        <div
+                                            id="projectpic-carousel"
+                                            class="carousel slide"
+                                            data-ride="carousel"
+                                        >
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li
+                                                    data-target="#projectpic-carousel"
+                                                    data-slide-to="0"
+                                                    class="active"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel"
+                                                    data-slide-to="1"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel"
+                                                    data-slide-to="2"
+                                                ></li>
+                                            </ol>
 
-				    <!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-					    <div class="item active">
-						<img src="img/rangmanch/rang2.jpg">
-					    </div>
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="img/rangmanch/rang2.jpg" />
+                                                </div>
 
-					    <div class="item">
-					      <img src="img/rangmanch/rang3.jpg">
-					    </div>
+                                                <div class="item">
+                                                    <img src="img/rangmanch/rang3.jpg" />
+                                                </div>
 
-					    <div class="item">
-					      <img src="img/rangmanch/rang4.jpg">
-					    </div>
-					</div>
+                                                <div class="item">
+                                                    <img src="img/rangmanch/rang4.jpg" />
+                                                </div>
+                                            </div>
 
-					<!-- Controls -->
-					<a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
-					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-					    <span class="sr-only">Previous</span>
-					</a>
-					<a class="right carousel-control" href="#projectpic-carousel" role="button" data-slide="next">
-					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-					    <span class="sr-only">Next</span>
-					</a>
-				    </div>
-				</div>
-				<div class = "modal-half-2 col-xs-12 col-md-4">
-				    <p>	With the aim of restoring social dignity Project Rangmanch
-				    endeavors to uplift underprivileged and commercially exploited
-				    women and enable them to become entrepreneurs, supplementing
-				    their income by providing them with the raw materials and
-				    techniques to make organic powdered colors (gulaal) for the
-				    festival of Holi. As a result of it, 5 entrepreneurs and an
-				    income of Rupees 5000 was generated and holi was made safer for the consumers.</p>
-				</div>
-			    </div>
-		    </div>
+                                            <!-- Controls -->
+                                            <a
+                                                class="left carousel-control"
+                                                href="#projectpic-carousel"
+                                                role="button"
+                                                data-slide="prev"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-left"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a
+                                                class="right carousel-control"
+                                                href="#projectpic-carousel"
+                                                role="button"
+                                                data-slide="next"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-half-2 col-xs-12 col-md-4">
+                                        <p>
+                                            With the aim of restoring social dignity Project
+                                            Rangmanch endeavors to uplift underprivileged and
+                                            commercially exploited women and enable them to become
+                                            entrepreneurs, supplementing their income by providing
+                                            them with the raw materials and techniques to make
+                                            organic powdered colors (gulaal) for the festival of
+                                            Holi. As a result of it, 5 entrepreneurs and an income
+                                            of Rupees 5000 was generated and holi was made safer for
+                                            the consumers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
 
-	<div class="modal fade project2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+                <div class="modal fade project2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" >
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1
+                                    class="project-header"
+                                    style="
+                                        font-family: Century gothic;
+                                        text-align: center;
+                                        margin: 0px;
+                                    "
+                                >
+                                    SANKALP
+                                </h1>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="modal-half-1 col-xs-12 col-md-8">
+                                        <div id="projectpic-carousel-2" class="carousel slide" data-ride="carousel">
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li
+                                                    data-target="#projectpic-carousel-2"
+                                                    data-slide-to="0"
+                                                    class="active"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-2"
+                                                    data-slide-to="1"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-2"
+                                                    data-slide-to="2"
+                                                ></li>
+												<li
+                                                    data-target="#projectpic-carousel-2"
+                                                    data-slide-to="3"
+                                                ></li>
+                                            </ol>
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="img/sankalp/sank1.jpeg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/sankalp/sank1.jpg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/sankalp/sank2.jpg" />
+                                                </div>
+												<div class="item">
+                                                    <img src="img/sankalp/sank3.jpg" />
+                                                </div>
+                                            </div>
+
+                                            <!-- Controls -->
+                                            <a
+                                                class="left carousel-control"
+                                                href="#projectpic-carousel-2"
+                                                role="button"
+                                                data-slide="prev"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-left"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a
+                                                class="right carousel-control"
+                                                href="#projectpic-carousel-2"
+                                                role="button"
+                                                data-slide="next"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-half-2 col-xs-12 col-md-4">
+                                        <p>
+                                            This project aims to increase the income, promote
+                                            pottery skills and restore the social dignity of the
+                                            potters at Kumhar Gram village, Delhi. Project Sankalp
+                                            is an ongoing project that will be able to sustain these
+                                            potters and their families with a regular monthly
+                                            income.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="modal fade project3"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myLargeModalLabel"
+                >
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1
+                                    class="project-header"
+                                    style="
+                                        font-family: Century gothic;
+                                        text-align: center;
+                                        margin: 0px;
+                                    "
+                                >
+                                    PROJECT ENTRINUS
+                                </h1>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="modal-half-1 col-xs-12 col-md-8">
+                                        <div
+                                            id="projectpic-carousel-3"
+                                            class="carousel slide"
+                                            data-ride="carousel"
+                                        >
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li
+                                                    data-target="#projectpic-carousel-3"
+                                                    data-slide-to="0"
+                                                    class="active"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-3"
+                                                    data-slide-to="1"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-3"
+                                                    data-slide-to="2"
+                                                ></li>
+                                            </ol>
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="img/entrinus/ent1.png" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/entrinus/ent2.png" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/entrinus/ent3.png" />
+                                                </div>
+                                            </div>
+
+                                            <!-- Controls -->
+                                            <a
+                                                class="left carousel-control"
+                                                href="#projectpic-carousel-3"
+                                                role="button"
+                                                data-slide="prev"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-left"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a
+                                                class="right carousel-control"
+                                                href="#projectpic-carousel-3"
+                                                role="button"
+                                                data-slide="next"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-half-2 col-xs-12 col-md-4">
+                                        <p>
+                                            The Enactus store is a one of its kind e-commerce
+                                            website that strives to bring all the Enactus students
+                                            chapters under a common umbrella where they can showcase
+                                            their products and connect to potential buyers. The
+                                            website is live and is taking orders too. Entrinus is a
+                                            unique idea as it provides a platform to local craftmen
+                                            to showcase their craft and thus, have a wider reach.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+				<div
+                    class="modal fade project2"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myLargeModalLabel"
+                >
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1
+                                    class="project-header"
+                                    style="
+                                        font-family: Century gothic;
+                                        text-align: center;
+                                        margin: 0px;
+                                        color: white;
+                                    "
+                                >
+                                    PROJECT VIDYUT
+                                </h1>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="modal-half-1 col-xs-12 col-md-8">
+                                        <div
+                                            id="projectpic-carousel"
+                                            class="carousel slide"
+                                            data-ride="carousel"
+                                        >
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li
+                                                    data-target="#projectpic-carousel"
+                                                    data-slide-to="0"
+                                                    class="active"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel"
+                                                    data-slide-to="1"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel"
+                                                    data-slide-to="2"
+                                                ></li>
+                                            </ol>
+
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="img/rangmanch/rang2.jpg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/rangmanch/rang3.jpg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/rangmanch/rang4.jpg" />
+                                                </div>
+                                            </div>
+
+                                            <!-- Controls -->
+                                            <a
+                                                class="left carousel-control"
+                                                href="#projectpic-carousel"
+                                                role="button"
+                                                data-slide="prev"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-left"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a
+                                                class="right carousel-control"
+                                                href="#projectpic-carousel"
+                                                role="button"
+                                                data-slide="next"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-half-2 col-xs-12 col-md-4">
+                                        <p>
+                                            With the aim of restoring social dignity Project
+                                            Rangmanch endeavors to uplift underprivileged and
+                                            commercially exploited women and enable them to become
+                                            entrepreneurs, supplementing their income by providing
+                                            them with the raw materials and techniques to make
+                                            organic powdered colors (gulaal) for the festival of
+                                            Holi. As a result of it, 5 entrepreneurs and an income
+                                            of Rupees 5000 was generated and holi was made safer for
+                                            the consumers.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--	<div class="modal fade project3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
-           <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px;">SANKALP</h1></div>
-			<div class = "container-fluid">
+           <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px;">E-STORE</h1></div>
+           <div class = "container-fluid">
            <div class = "row">
             <div class = "modal-half-1 col-xs-12 col-md-8">
                 <div id="projectpic-carousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
-                  <ol class="carousel-indicators">
+                <!--  <ol class="carousel-indicators"> 
                     <li data-target="#projectpic-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#projectpic-carousel" data-slide-to="1"></li>
                     <li data-target="#projectpic-carousel" data-slide-to="2"></li>
-                  </ol>
+                  </ol> 
 
                   <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
+                <!--   <div class="carousel-inner" role="listbox">
                     <div class="item active">
                       <img src="img/rangmanch/rang2.jpg">
                     </div>
@@ -689,7 +1114,7 @@
                   </div>
 
                   <!-- Controls -->
-                  <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
+                <!--  <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
@@ -711,79 +1136,26 @@
         </div>
     </div>
   </div>
-  </div>
-</div>
-
-	<div class="modal fade project3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-           <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px;">E-STORE</h1></div>
-           <div class = "row">
-            <div class = "modal-half-1 col-xs-12">
-                <div id="projectpic-carousel" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#projectpic-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#projectpic-carousel" data-slide-to="1"></li>
-                    <li data-target="#projectpic-carousel" data-slide-to="2"></li>
-                  </ol>
-
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img src="img/rangmanch/rang2.jpg">
-                    </div>
-
-                    <div class="item">
-                      <img src="img/rangmanch/rang3.jpg">
-                    </div>
-
-                    <div class="item">
-                      <img src="img/rangmanch/rang4.jpg">
-                    </div>
-                  </div>
-
-                  <!-- Controls -->
-                  <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#projectpic-carousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
-            </div>
-        </div>
-            <div class = "modal-half-2 col-xs-12">
-                <p>	With the aim of restoring social dignity Project Rangmanch
-                endeavors to uplift underprivileged and commercially exploited
-                women and enable them to become entrepreneurs, supplementing
-                their income by providing them with the raw materials and
-                techniques to make organic powdered colors (gulaal) for the
-                festival of Holi. As a result of it, 5 entrepreneurs and an
-                income of Rupees 5000 was generated and holi was made safer for the consumers.</p>
-            </div>
-        </div>
-    </div>
-  </div>
+ </div>	  
 </div>
 
 	<div class="modal fade project4" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
            <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px;">FOOD DRIVE</h1></div>
+           <div class = "container-fluid">
            <div class = "row">
-            <div class = "modal-half-1 col-xs-12">
+            <div class = "modal-half-1 col-xs-12 col-md-8">
                 <div id="projectpic-carousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
-                  <ol class="carousel-indicators">
+                <!-- <ol class="carousel-indicators">
                     <li data-target="#projectpic-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#projectpic-carousel" data-slide-to="1"></li>
                     <li data-target="#projectpic-carousel" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
+                <!-- <div class="carousel-inner" role="listbox">
                     <div class="item active">
                       <img src="img/rangmanch/rang2.jpg">
                     </div>
@@ -798,7 +1170,7 @@
                   </div>
 
                   <!-- Controls -->
-                  <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
+                <!--   <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
@@ -808,7 +1180,7 @@
                   </a>
             </div>
         </div>
-            <div class = "modal-half-2 col-xs-12">
+            <div class = "modal-half-2 col-xs-12 col-md-4">
                 <p>	With the aim of restoring social dignity Project Rangmanch
                 endeavors to uplift underprivileged and commercially exploited
                 women and enable them to become entrepreneurs, supplementing
@@ -820,24 +1192,26 @@
         </div>
     </div>
   </div>
+	</div>
 </div>
 
 	<div class="modal fade project5" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
            <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px;">ENVELOPE DESIGN COMPETITION</h1></div>
+           <div class = "container-fluid">
            <div class = "row">
-            <div class = "modal-half-1 col-xs-12">
+            <div class = "modal-half-1 col-xs-12 col-md-8">
                 <div id="projectpic-carousel" class="carousel slide" data-ride="carousel">
                   <!-- Indicators -->
-                  <ol class="carousel-indicators">
+                <!--   <ol class="carousel-indicators">
                     <li data-target="#projectpic-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#projectpic-carousel" data-slide-to="1"></li>
                     <li data-target="#projectpic-carousel" data-slide-to="2"></li>
                   </ol>
 
                   <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
+                <!--   <div class="carousel-inner" role="listbox">
                     <div class="item active">
                       <img src="img/rangmanch/rang2.jpg">
                     </div>
@@ -852,7 +1226,7 @@
                   </div>
 
                   <!-- Controls -->
-                  <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
+                <!--   <a class="left carousel-control" href="#projectpic-carousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                   </a>
@@ -862,7 +1236,7 @@
                   </a>
             </div>
         </div>
-            <div class = "modal-half-2 col-xs-12">
+            <div class = "modal-half-2 col-xs-12 col-md-4">
                 <p>	With the aim of restoring social dignity Project Rangmanch
                 endeavors to uplift underprivileged and commercially exploited
                 women and enable them to become entrepreneurs, supplementing
@@ -874,365 +1248,834 @@
         </div>
     </div>
   </div>
-</div>
+	</div>
+</div> -->
 
-	<div class="modal fade project6" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-           <div class="modal-header"><h1 class = "project-header"style = "font-family:Century gothic; text-align: center; margin: 0px;">DIYA DONATION DRIVE</h1></div>
-           <div class = "row">
-            <div class = "modal-half-1 col-xs-12">
-                <div id="projectpic-carousel-6" class="carousel slide" data-ride="carousel">
-                  <!-- Indicators -->
-                  <ol class="carousel-indicators">
-                    <li data-target="#projectpic-carousel-6" data-slide-to="0" class="active"></li>
-                    <li data-target="#projectpic-carousel-6" data-slide-to="1"></li>
-                    <li data-target="#projectpic-carousel-6" data-slide-to="2"></li>
-                    <li data-target="#projectpic-carousel-6" data-slide-to="3"></li>
-                  </ol>
+                <div
+                    class="modal fade project6"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="myLargeModalLabel"
+                >
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1
+                                    class="project-header"
+                                    style="
+                                        font-family: Century gothic;
+                                        text-align: center;
+                                        margin: 0px;
+                                    "
+                                >
+                                    DIYA DONATION DRIVE
+                                </h1>
+                            </div>
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="modal-half-1 col-xs-12 col-md-8">
+                                        <div
+                                            id="projectpic-carousel-6"
+                                            class="carousel slide"
+                                            data-ride="carousel"
+                                        >
+                                            <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                <li
+                                                    data-target="#projectpic-carousel-6"
+                                                    data-slide-to="0"
+                                                    class="active"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-6"
+                                                    data-slide-to="1"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-6"
+                                                    data-slide-to="2"
+                                                ></li>
+                                                <li
+                                                    data-target="#projectpic-carousel-6"
+                                                    data-slide-to="3"
+                                                ></li>
+                                            </ol>
 
-                  <!-- Wrapper for slides -->
-                  <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                      <img src="img/diya/diya1.jpg">
+                                            <!-- Wrapper for slides -->
+                                            <div class="carousel-inner" role="listbox">
+                                                <div class="item active">
+                                                    <img src="img/diya/diya1.jpg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/diya/diya2.jpg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/diya/diya4.jpg" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src="img/diya/diya5.jpg" />
+                                                </div>
+                                            </div>
+
+                                            <!-- Controls -->
+                                            <a
+                                                class="left carousel-control"
+                                                href="#projectpic-carousel-6"
+                                                role="button"
+                                                data-slide="prev"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-left"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Previous</span>
+                                            </a>
+                                            <a
+                                                class="right carousel-control"
+                                                href="#projectpic-carousel-6"
+                                                role="button"
+                                                data-slide="next"
+                                            >
+                                                <span
+                                                    class="glyphicon glyphicon-chevron-right"
+                                                    aria-hidden="true"
+                                                ></span>
+                                                <span class="sr-only">Next</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="modal-half-2 col-xs-12 col-md-4">
+                                        <p>
+                                            The NIEC-Enactus team went for the Diya Donation Drive
+                                            in an underprivileged area, to apportion the collection
+                                            of Diyas and chocolates that were solicited. The eyes
+                                            that were wary and cautious of the bourgeois, were
+                                            grateful after receiving the gifts. They expressed their
+                                            gratitude and our team was pleased they could bring
+                                            happiness in their lives.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="item">
-                      <img src="img/diya/diya2.jpg">
-                    </div>
-
-                    <div class="item">
-                      <img src="img/diya/diya4.jpg">
-                    </div>
-
-                    <div class="item">
-                      <img src="img/diya/diya5.jpg">
-                    </div>
-                  </div>
-
-                  <!-- Controls -->
-                  <a class="left carousel-control" href="#projectpic-carousel-6" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="right carousel-control" href="#projectpic-carousel-6" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+                </div>
             </div>
-        </div>
-            <div class = "modal-half-2 col-xs-12">
-                <p>	The NIEC-Enactus team went for the Diya Donation Drive in an underprivileged area, to apportion the collection of Diyas and chocolates that were solicited. The eyes that were wary and cautious of the bourgeois, were grateful after receiving the gifts. They expressed their gratitude and our team was pleased they could bring happiness in their lives.</p>
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
-
-    </div>
 </section>
 
-<!-- Contacts -->
-<section id="contact">
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding">
-        <div id="map"></div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding contact-bck">
-        <div class="contact-content">
-            <h2 class="section-title">Contact us</h2>
-            <h1>Fill the fields</h1>
-            <form class="contact-class" method="post" action="/contact_us">
-                <div class="input-fields">
-                    <label for="name">Your Name*</label>
-                    <input class="normal-input" type="text" id="name" name="name" required>
-                </div>
-                <div class="input-fields">
-                    <label for="number">Your Phone*</label>
-                    <input id="number" class="normal-input" type="tel" name="number">
-                </div>
-                <div class="input-fields">
-                    <label for="email">Your E-mail</label>
-                    <input id="email" class="normal-input" type="email" name="email">
-                </div>
-                <input class="submit-button" type="submit" value="Send" name="submit">
-            </form>
-        </div>
-    </div>
-</section>
-<!-- FOOTER -->
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="footer-column-one">
-                    <img src="white.png" alt="Aya Logo">
-                    <p>Enactus is an international non-profit organization that nurtures managerial skills of
-                        students.</p>
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                    </ul>
+        <!-- OUR TEAM SECTION -->
+
+       <section class="track" id="team">
+            <div class="containers">
+                <div class="row aligner">
+                    <h4 class="normal-section-subtitle">OUR MENTOR</h4>
+                    <div class="center">
+                        <div class="team-member">
+                            <h4>Preety Mam</h4>
+							<div class="mam">
+					        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+							</div>
+                        </div>
+						</div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="footer-column-two">
-                    <h4>Quick menu</h4>
-                    <ul>
+        </section>
+		
+		<section class="track" id="team">
+            <div class="containers">
+                <div class="row aligner">
+                    <h2 class="normal-section-title">
+                        Council
+                    </h2>
+                    <h4 class="normal-section-subtitle">Meet the people behind the magic</h4>
+                    <div class="center">
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal1"
+                            >
+                                <img class="po" src="img/ayush.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Aayush Gill</h4>
+                            <p>Senior Advisory</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal1"
+                            >
+                                <img class="po" src="img/Anshul.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Anshul</h4>
+                            <p>Senior Advisory</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal1"
+                            >
+                                <img class="po" src="img/tanyanew.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Tanya Nischal</h4>
+                            <p>President</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal2"
+                            >
+                                <img
+                                    class="po"
+                                    src="img/kritikanew.jpg"
+                                    alt="Team Member Photo 01"
+                                />
+                            </div>
+                            <h4>Kritika Gogia</h4>
+                            <p>Vice President</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal2"
+                            >
+                                <img class="po" src="img/saurabh.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Saurabh Dhauni</h4>
+                            <p>Vice President</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal3"
+                            >
+                                <img class="po" src="img/mehak.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Mehak Gulati</h4>
+                            <p>Head of External Affairs</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal4"
+                            >
+                                <img class="po" src="img/isha.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Isha Nailwal</h4>
+                            <p>General Secretary</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--OUR TEAM -->
+
+        <section class="track" id="team">
+            <div class="containers">
+                <div class="row aligner">
+                    <h2 class="normal-section-title">
+                        Our Team
+                    </h2>
+                    <div class="center">
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal11"
+                            >
+                                <img class="po" src="img/devnew.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Dev Chetal</h4>
+                            <p>Department Head(Bussiness Development)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal8"
+                            >
+                                <img class="po" src="img/arshnew.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Arsh Ahmed</h4>
+                            <p>Department Head(Marketing & Campaign)</p>
+                            <p></p>
+                        </div>
+
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal9"
+                            >
+                                <img class="po" src="img/paridhi.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Paridhi Sharma</h4>
+                            <p>Department Head(Marketing & Campaign)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal11"
+                            >
+                                <img class="po" src="img/akshat.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Akshat Dhaundiyal</h4>
+                            <p>Department Head(Gaphics & Photography)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal12"
+                            >
+                                <img class="po" src="img/akshit.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Akshit Verma</h4>
+                            <p>Department Head(Gaphics & Photography)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal10"
+                            >
+                                <img class="po" src="img/arjun.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Arjun Narang</h4>
+                            <p>Department Head(Content)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal11"
+                            >
+                                <img class="po" src="img/aditya.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Aditya Singh</h4>
+                            <p>Department Head(Sponserships)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal11"
+                            >
+                                <img class="po" src="img/muskan.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Muskan Aggarwal</h4>
+                            <p>Department Head(Volunteering)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal11"
+                            >
+                                <img class="po" src="img/kartik.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Kartik Koundal</h4>
+                            <p>Department Head(Volunteering)</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal5"
+                            >
+                                <img class="po" src="img/ishika.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Ishika Khurana</h4>
+                            <p>Project Head</p>
+                        </div>
+
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal6"
+                            >
+                                <img class="po" src="img/satvik.jpg" alt="Team Member Photo 01" />
+                            </div>
+                            <h4>Satvik Sharma</h4>
+                            <p>Project Head</p>
+                        </div>
+                        <div class="team-member">
+                            <div
+                                class="the-team-member-photo"
+                                data-toggle="modal"
+                                data-target="#myModal7"
+                            >
+                                <img
+                                    class="po"
+                                    src="img/manvinew2.jpg"
+                                    alt="Team Member Photo 01"
+                                />
+                            </div>
+                            <h4>Manvi Gambhir</h4>
+                            <p>Project Head</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TESTIMONIALS -->
+        <section id="testimonials">
+            <div
+                class="parallax-testimonial"
+                data-parallax="scroll"
+                data-image-src="img/comments04.png"
+            >
+                <div class="containers">
+                    <div class="row aligner">
+                        <h2 class="normal-section-title">
+                            Testimonials
+                        </h2>
+                        <h4 class="normal-section-subtitle">What people say about us</h4>
+                        <div class="testimonials">
+                            <div class="the-testimonial">
+                                <p class="text-from-client">
+                                    "It's not about ideas, It's about making these ideas happen.
+                                    Being at enactus not only helps putting your ideas forth but the
+                                    challenges faced,make you a more resourceful person- looking for
+                                    possibilities rather than settling for what's in front of you.
+                                    It is a grooming experience where you strive towards a noble aim
+                                    and grow from within."
+                                </p>
+                                <div class="client-info">
+                                    <img src="img/ss.png" alt="Photo" />
+                                    <h4>
+                                        Sagarika Sachdeva
+                                        <small>Enactus ADGITM</small>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="the-testimonial">
+                                <p class="text-from-client">
+                                    "Enactus ADGITM, in a very short time has become like a family
+                                    to me. Together, we learn, discuss and explore ideas to improve
+                                    human conditions and enable sustainable human progress and then
+                                    we work towards achieving it. I feel content to perceive how our
+                                    small efforts can bring joy to the communities we help. Enactus
+                                    ADGITM serves as a platform for us to develop into more
+                                    effective and value driven leaders."
+                                </p>
+                                <div class="client-info">
+                                    <img src="img/ds.png" alt="Photo" />
+                                    <h4>
+                                        Devina Shah
+                                        <small>Enactus ADGITM</small>
+                                    </h4>
+                                </div>
+                            </div>
+                            <div class="the-testimonial">
+                                <p class="text-from-client">
+                                    "Enactus means a lot to me since I have always been interested
+                                    in entrepreneurial endeavours, and I have also been altruistic
+                                    all my life. I don't think there is anything better than using
+                                    business models to uplift society and help others, like we try
+                                    to do in Enactus. This society makes me feel like a good person,
+                                    and I feel that is what really matters!"
+                                </p>
+                                <div class="client-info">
+                                    <img src="img/vy.png" alt="Photo" />
+                                    <h4>
+                                        Vaibhav Yadav
+                                        <small>Enactus ADGITM</small>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts -->
+        <section id="contact">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding">
+                <div id="map"></div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 remove-padding contact-bck">
+                <div class="contact-content">
+                    <h2 class="section-title">Contact us</h2>
+                    <h1>Fill the fields</h1>
+                    <form class="contact-class" method="post" action="/contact_us">
+                        <div class="input-fields">
+                            <label for="name">Your Name*</label>
+                            <input
+                                class="normal-input"
+                                type="text"
+                                id="name"
+                                name="name"
+                                required
+                            />
+                        </div>
+                        <div class="input-fields">
+                            <label for="number">Your Phone*</label>
+                            <input id="number" class="normal-input" type="tel" name="number" />
+                        </div>
+                        <div class="input-fields">
+                            <label for="email">Your E-mail</label>
+                            <input id="email" class="normal-input" type="email" name="email" />
+                        </div>
+                        <input class="submit-button" type="submit" value="Send" name="submit" />
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- FOOTER -->
+        <footer class="container-fluid">
+            <div class="row">
+                <!--description-->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-column-two">
+                        <center><h4>Description</h4></center>
+                        <p>
+                            Enactus is a global non-profit organisation with a community of student,
+                            academic and business leaders committed to using the power of
+                            entrepreneurial action to transform lives. With a head for business and
+                            a heart for the world, we live our values of integrity, passion,
+                            innovation and collaboration.
+                        </p>
+
+                        <!--   <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">The team</a></li>
                         <li><a href="#">Testimonials</a></li>
                         <li><a href="#">Portfolio</a></li>
-                    </ul>
+                    </ul>-->
+                    </div>
+                </div>
+                <!--logo-->
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-column-one">
+                        <img src="white.png" alt="Aya Logo" class="center-block" />
+                    </div>
+                </div>
+                <!--contact us-->
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="footer-column-three">
+                        <center><h4>Contact us</h4></center>
+                        <!-- <div class="footer-column-one">-->
+                        <ul>
+                            <center>
+                                <a href="https://instagram.com/enactusadgitm?igshid=mpykma1jepzk"
+                                    ><i class="fa fa-instagram"></i
+                                ></a>
+                                <a href="https://www.linkedin.com/in/enactus-adgitm-4942b61a5"
+                                    ><i class="fa fa-linkedin-square"></i
+                                ></a>
+                                <a href="https://twitter.com/ADGITMEnactus?s=08"
+                                    ><i class="fa fa-twitter-square"></i
+                                ></a>
+                            </center>
+                        </ul>
+                        <!--</div>-->
+
+                        <ul>
+                            <!--<li><i class="fa fa-phone"></i><a href="tel:00000">(+91) 9899792986, (+91) 8700488546</a></li>-->
+                            <li>
+                                <i class="fa fa-envelope"></i
+                                ><a href="mailto:enactusadgitm@gmail.com"
+                                    >enactusadgitm@gmail.com</a
+                                >
+                            </li>
+                            <li>
+                                <i class="fa fa-map-marker"></i
+                                ><a
+                                    href="https://www.google.com/maps/place/Dr.+Akhilesh+Das+Gupta+Institute+of+Technology+%26+Management/@28.6775927,77.2587263,17z/data=!4m8!1m2!2m1!1sADGITM!3m4!1s0x390cfc5e54e6b163:0x523ae20fe007eccc!8m2!3d28.6779393!4d77.2610976"
+                                    >FC-26, Panduk Shila Marg, Zero Pusta Rd, Shastri Park,
+                                    Shahdara, New Delhi, Delhi-110053
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="scrollToTop" style="display: inline;"
+                    ><i class="ion-ios-arrow-up"></i
+                ></a>
+            </div>
+            <div class="bottom-footer row">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-last">
+                            <p>EnactusADGITM &copy; 2017-18 All Rights Reserved</p>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"></div>
+                    </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                <div class="footer-column-three">
-                    <h4>Contact us</h4>
-                    <ul>
-                        <li><i class="fa fa-phone"></i><a href="tel:00000">(+91) 9899792986, (+91) 8700488546</a></li>
-                        <li><i class="fa fa-envelope"></i><a href="#">enactusniec@gmail.com</a></li>
-                        <li><i class="fa fa-map-marker"></i><a href="#">FC 26, Shastri Park, New Delhi-53, India</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+        </footer>
 
-        </div>
-    </div>
-    <a href="#" class="scrollToTop" style="display: inline;"><i class="ion-ios-arrow-up"></i></a>
-</footer>
-<div class="bottom-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 footer-last">
-                <p>EnactusADGITM &copy; 2017-18 All Rights Reserved</p>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-            </div>
-        </div>
-    </div>
-</div>
-<!-- ==== JAVASCRIPT FILES ====-->
-<!-- Jquery-->
-<script src="js/jquery-2.2.4.min.js"></script>
-<!-- Smooth scroll-->
-<script src="js/smooth-scroll.js"></script>
-<!-- Parallax -->
-<script src="js/parallax.min.js"></script>
-<!-- jQuery Filterizr -->
-<script src="js/jquery.filterizr.js"></script>
-<!-- Maginific Popup Modal -->
-<script src="js/jquery.magnific-popup.min.js"></script>
-<!-- Slick Slider -->
-<script src="js/slick.min.js"></script>
-<!-- Custom -->
-<script src="js/custom.js"></script>
+        <!-- ==== JAVASCRIPT FILES ====-->
+        <!-- Jquery-->
+        <script src="js/jquery-2.2.4.min.js"></script>
+        <!-- Smooth scroll-->
+        <script src="js/smooth-scroll.js"></script>
+        <!-- Parallax -->
+        <script src="js/parallax.min.js"></script>
+        <!-- jQuery Filterizr -->
+        <script src="js/jquery.filterizr.js"></script>
+        <!-- Maginific Popup Modal -->
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <!-- Slick Slider -->
+        <script src="js/slick.min.js"></script>
+        <!-- Custom -->
+        <script src="js/custom.js"></script>
 
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossorigin="anonymous"></script>
-<script src="slider/js/libs/jquery-1.11.3.js"></script>
-<script src="slider/js/plugins.js"></script>
-<!-- RevSlider -->
-<script src="slider/js/revolution-slider.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-<!-- End RevSlider -->
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"
+        ></script>
+        <script src="slider/js/libs/jquery-1.11.3.js"></script>
+        <script src="slider/js/plugins.js"></script>
+        <!-- RevSlider -->
+        <script src="slider/js/revolution-slider.js"></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/jquery.themepunch.tools.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/jquery.themepunch.revolution.min.js"
+        ></script>
+        <!-- End RevSlider -->
+        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS
 (Load Extensions only on Local File Systems !
 The following part can be removed on Server for On Demand Loading) -->
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="slider/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-<!-- End RevSlider -->
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.actions.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.carousel.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.migration.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.navigation.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.parallax.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"
+        ></script>
+        <script
+            type="text/javascript"
+            src="slider/rs-plugin/js/extensions/revolution.extension.video.min.js"
+        ></script>
+        <!-- End RevSlider -->
 
-<!--List Slider-->
-<script src="List-Slider/js/script.js"></script>
+        <!--List Slider-->
+        <script src="List-Slider/js/script.js"></script>
 
+        <script>
+            // GOOGLE MAPS API
+            function initMap() {
+                var mapStyle = [
+                    {
+                        featureType: 'administrative',
+                        elementType: 'labels.text.fill',
+                        stylers: [
+                            {
+                                color: '#444444',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'administrative.country',
+                        elementType: 'geometry.stroke',
+                        stylers: [
+                            {
+                                visibility: 'on',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'landscape',
+                        elementType: 'all',
+                        stylers: [
+                            {
+                                color: '#f3f2ee',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'poi',
+                        elementType: 'all',
+                        stylers: [
+                            {
+                                visibility: 'on',
+                            },
+                            {
+                                saturation: '36',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'poi.park',
+                        elementType: 'geometry.fill',
+                        stylers: [
+                            {
+                                visibility: 'on',
+                            },
+                            {
+                                color: '#e0bd53',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'road',
+                        elementType: 'all',
+                        stylers: [
+                            {
+                                saturation: '-68',
+                            },
+                            {
+                                lightness: 45,
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'road.highway',
+                        elementType: 'all',
+                        stylers: [
+                            {
+                                visibility: 'on',
+                            },
+                            {
+                                saturation: '-46',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'road.arterial',
+                        elementType: 'labels.icon',
+                        stylers: [
+                            {
+                                visibility: 'off',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'transit',
+                        elementType: 'all',
+                        stylers: [
+                            {
+                                visibility: 'off',
+                            },
+                            {
+                                saturation: '-32',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'all',
+                        stylers: [
+                            {
+                                color: '#d1a94a',
+                            },
+                            {
+                                visibility: 'on',
+                            },
+                        ],
+                    },
+                    {
+                        featureType: 'water',
+                        elementType: 'geometry.fill',
+                        stylers: [
+                            {
+                                color: '#e0bd53',
+                            },
+                        ],
+                    },
+                ];
+                var markerIcon = {
+                    path:
+                        'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z',
+                    fillColor: '#1a1919',
+                    fillOpacity: 0.95,
+                    scale: 3,
+                    strokeColor: '#fff',
+                    strokeWeight: 3,
+                    anchor: new google.maps.Point(12, 24),
+                };
 
-<script>
-    // GOOGLE MAPS API
-    function initMap() {
-        var mapStyle = [
-            {
-                "featureType": "administrative",
-                "elementType": "labels.text.fill",
-                "stylers": [
-                    {
-                        "color": "#444444"
-                    }
-                ]
-            },
-            {
-                "featureType": "administrative.country",
-                "elementType": "geometry.stroke",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "landscape",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "color": "#f3f2ee"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    },
-                    {
-                        "saturation": "36"
-                    }
-                ]
-            },
-            {
-                "featureType": "poi.park",
-                "elementType": "geometry.fill",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    },
-                    {
-                        "color": "#e0bd53"
-                    }
-                ]
-            },
-            {
-                "featureType": "road",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "saturation": "-68"
-                    },
-                    {
-                        "lightness": 45
-                    }
-                ]
-            },
-            {
-                "featureType": "road.highway",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "on"
-                    },
-                    {
-                        "saturation": "-46"
-                    }
-                ]
-            },
-            {
-                "featureType": "road.arterial",
-                "elementType": "labels.icon",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    }
-                ]
-            },
-            {
-                "featureType": "transit",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "visibility": "off"
-                    },
-                    {
-                        "saturation": "-32"
-                    }
-                ]
-            },
-            {
-                "featureType": "water",
-                "elementType": "all",
-                "stylers": [
-                    {
-                        "color": "#d1a94a"
-                    },
-                    {
-                        "visibility": "on"
-                    }
-                ]
-            },
-            {
-                "featureType": "water",
-                "elementType": "geometry.fill",
-                "stylers": [
-                    {
-                        "color": "#e0bd53"
-                    }
-                ]
+                // Create a map object and specify the DOM element for display.
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    center: { lat: 28.6781, lng: 77.261 },
+                    scrollwheel: false,
+                    styles: mapStyle,
+                    marker: marker,
+                    zoom: 17,
+                });
+                var marker = new google.maps.Marker({
+                    map: map,
+                    icon: markerIcon,
+                    position: new google.maps.LatLng(28.6781, 77.261),
+                });
             }
-        ];
-        var markerIcon = {
-            path: 'M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z',
-            fillColor: '#1a1919',
-            fillOpacity: 0.95,
-            scale: 3,
-            strokeColor: '#fff',
-            strokeWeight: 3,
-            anchor: new google.maps.Point(12, 24)
-        };
 
-        // Create a map object and specify the DOM element for display.
-        var map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 28.6781, lng: 77.261},
-            scrollwheel: false,
-            styles: mapStyle,
-            marker: marker,
-            zoom: 17
-        });
-        var marker = new google.maps.Marker({
-            map: map,
-            icon: markerIcon,
-            position: new google.maps.LatLng(28.6781, 77.261)
-        });
-    }
+            // Navbar Logo
+            $(function () {
+                window.onscroll = function () {
+                    if ($(window).width() > 768) {
+                        growShrinkLogo();
+                    } else {
+                        var Logo = document.getElementById('Logo1');
+                        Logo.className = 'small transition';
+                    }
+                };
+                function growShrinkLogo() {
+                    var Logo = document.getElementById('Logo1');
+                    if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+                        Logo.className = 'small transition';
+                    } else {
+                        Logo.className = 'big transition';
+                    }
+                }
+            });
 
-    // Navbar Logo
-    $(function () {
-        window.onscroll = function() {
-            if($(window).width()>768){
-                growShrinkLogo()
-            } else {
-                var Logo = document.getElementById("Logo1");
-                Logo.className = 'small transition';
-            }
-        };
-        function growShrinkLogo() {
-            var Logo = document.getElementById("Logo1");
-            if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
-                Logo.className = 'small transition';
-            } else {
-                Logo.className = 'big transition';
-            }
-        }
-    })
+            document.querySelector('.slick-next').innerHTML = '>';
+            document.querySelector('.slick-prev').innerHTML = '<';
+        </script>
+        <script
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcu_bS8rsc-RwnieUjHQxocE0RGUhzsCs&amp;callback=initMap"
+            async
+            defer
+        ></script>
 
-    document.querySelector('.slick-next').innerHTML=">";
-    document.querySelector('.slick-prev').innerHTML="<";
-
-
-</script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcu_bS8rsc-RwnieUjHQxocE0RGUhzsCs&amp;callback=initMap" async defer></script>
-
-<!-- ==== END JAVASCRIPT FILES ==== -->
-</body>
+        <!-- ==== END JAVASCRIPT FILES ==== -->
+    </body>
 </html>

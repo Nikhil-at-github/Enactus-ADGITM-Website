@@ -13,8 +13,8 @@ app.use(
 );
 app.set("view engine", "html");
 
+const astitva = require("./Astitva/");
 //astitva page
-const astitva = require("./Astitva");
 app.use("/project-astitva", astitva);
 
 //home page

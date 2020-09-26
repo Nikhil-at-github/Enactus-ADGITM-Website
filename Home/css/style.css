@@ -20,6 +20,34 @@
 /************* GENERAL SECTION *************/
 /*******************************************/
 
+.mam {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  padding-top: 25%;
+} 
+.marquee {
+    width: 100%;
+	height: 20px; 
+	background-color: black;
+	line-height: 5px;
+	color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+	padding-top: 5px;
+	line-spacing: 0.5px;
+    font-family: 'Dosis', sans-serif;
+	animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
 
 
 .navbar{
