@@ -1,14 +1,14 @@
 .navbar {
-  padding: 0.7rem 4rem;
+    padding: 0.7rem 4rem;
 }
 .enactus-logo > img {
-  width: 2rem;
-  transform: scale(3.5) translateY(8%);
+    width: 2rem;
+    transform: scale(3.5) translateY(8%);
 }
 .collapse {
-  justify-content: flex-end;
+    justify-content: flex-end;
 }
 
 .nav-link {
-  padding: 0 4rem;
+    padding: 0 4rem;
 }

@@ -21,10 +21,11 @@
 /*******************************************/
 
 .mam {
-  margin: auto;
+  margin: 10px auto;
   width: 100%;
+	max-width: 900px;
   text-align: center;
-  padding-top: 25%;
+	padding: 20px;
 } 
 .marquee {
     width: 100%;
@@ -300,7 +301,7 @@ section {
 }
 
 .aligner {
-    margin: 120px 0;
+    margin: 120px auto;
 }
 
 
@@ -497,6 +498,9 @@ section {
 
 .center {
     margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -523,6 +527,10 @@ section {
 
 .team-member:hover{
     opacity: 1;
+}
+
+#mentor{
+	opacity: 1;
 }
 
 .team-member.slick-center {
