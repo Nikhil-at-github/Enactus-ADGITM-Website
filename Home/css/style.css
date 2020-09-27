@@ -20,6 +20,13 @@
 /************* GENERAL SECTION *************/
 /*******************************************/
 
+.astitva {
+	padding-left: 10px;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 30px;
+}
+
 .mam {
   margin: 10px auto;
   width: 100%;
@@ -32,7 +39,9 @@
 	height: 20px; 
 	background-color: black;
 	line-height: 5px;
-	color: white;
+	background: #abbaab;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     white-space: nowrap;
     overflow: hidden;
     box-sizing: border-box;
@@ -41,6 +50,7 @@
     display: inline-block;
     padding-left: 100%;
 	padding-top: 5px;
+	color: black;
 	line-spacing: 0.5px;
     font-family: 'Dosis', sans-serif;
 	animation: marquee 15s linear infinite;

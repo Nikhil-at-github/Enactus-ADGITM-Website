@@ -4,7 +4,16 @@
 
     var $window = $(window);
 
-//////// -Preloader- /////////
+$(document).ready(function() {
+        $(".redirect").click(function() {
+            window.location.href = this.id + '/Astitva/index.html';
+        });
+    });
+	
+	
+	
+	
+	//////// -Preloader- /////////
     $window.on('load', function () {
         var loading = $('.loading');
         $(loading).hide(); // Hide preloader when document is fully loaded
