@@ -1,9 +1,9 @@
-.project-heads-cards-wrapper {
+/* .project-heads-cards-wrapper {
   display: flex;
-}
+} */
 
 .project-head-card {
-  width: 30%;
+  /* width: 30%; */
   border: none;
   margin: auto;
 }

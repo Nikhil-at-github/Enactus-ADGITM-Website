@@ -3,7 +3,7 @@
   align-items: center;
   background-image: url("../Assets/hero-image-1.jpg");
   width: 100%;
-  height: 92vh;
+  height: 100%;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -17,6 +17,14 @@
   font-weight: bolder;
   font-size: 9rem;
   color: var(--custom-primary-color);
+}
+
+@media screen and (max-width:768px){
+	
+	.hero > .ml11 > .text-wrapper > .letters {
+  		font-weight: bolder;
+  		font-size: 4rem;
+	}	
 }
 
 .ml11 {

@@ -6,9 +6,10 @@
     transform: scale(3.5) translateY(8%);
 }
 .collapse {
-    justify-content: flex-end;
+    margin-top: .3rem;
+	justify-content: flex-end;
 }
 
 .nav-link {
-    padding: 0 4rem;
+    padding: .4rem 4rem;
 }

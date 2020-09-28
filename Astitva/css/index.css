@@ -18,6 +18,33 @@ body {
 .heading {
     color: var(--custom-primary-color);
 }
+
+@media screen and (max-width:1024px){
+	.heading{
+		font-size: 3rem;
+	}
+}
+
+
+@media screen and (max-width:768px){
+	.heading{
+		font-size: 2rem;
+	}
+	.heading::before,.heading::after{
+		display: none;
+	}
+}
+
+
+@media screen and (max-width:425px){
+	.heading{
+		font-size: 1.46rem;
+	}
+	.heading::before,.heading::after{
+		display: none;
+	}
+}
+
 .heading::before,
 .heading::after {
     content: ' - ';
