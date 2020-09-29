@@ -14,10 +14,10 @@ $(document).ready(function() {
 	
 	
 	//////// -Preloader- /////////
-    $window.on('load', function () {
-        var loading = $('.loading');
-        $(loading).hide(); // Hide preloader when document is fully loaded
-    });
+    // $window.on('load', function () {
+    //     var loading = $('.loading');
+    //     $(loading).hide(); // Hide preloader when document is fully loaded
+    // });
 
 //////// -Mobile Menu- /////////
     var icon = $(".icon");
