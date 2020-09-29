@@ -6,7 +6,7 @@
 
 $(document).ready(function() {
         $(".redirect").click(function() {
-            window.location.href = this.id + '/Astitva/index.html';
+            window.location.href = this.id + '/project-astitva';
         });
     });
 	
