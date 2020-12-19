@@ -16,6 +16,10 @@ app.set("view engine", "html");
 const astitva = require("./Astitva/");
 //astitva page
 app.use("/project-astitva", astitva);
+//abeer
+const abeer = require("./abeer/");
+
+app.use("/project-abeer", abeer);
 
 //home page
 const homePage = require("./Home");

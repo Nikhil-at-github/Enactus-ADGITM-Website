@@ -1,0 +1,51 @@
+.header{
+    height: 88px;
+    display: flex;
+    width: max-content;
+    background: linear-gradient(148deg, black, grey,yellow,transparent);
+}
+.enactus-logo{
+   
+    height: 118%;
+    width: 148px;
+    object-fit: contain;
+    }
+li{
+        list-style: none;
+    }
+
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: slategrey;
+    font-weight: 600;
+    font-family: sans-serif;
+    transition: transform 0.3s;
+}
+ul{
+  
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 515px;
+    /* margin-left: 66px; */
+    margin-left: 426px;
+}
+
+
+
+.header-links ul li:hover{
+    border-bottom: 0.1rem solid #f63854;
+    transform: scale(2.5);
+    background: linear-gradient(45deg, yellow, transparent,yellow);
+    color: black;
+    border-radius: 10%;
+    z-index: 2px;
+    font-size: 11px;
+    font-family: serif;
+}
