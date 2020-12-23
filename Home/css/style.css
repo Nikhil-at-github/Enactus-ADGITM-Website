@@ -1391,6 +1391,7 @@ body {
     height: 197px;
     transition: transform 1.5s;
     width: 460px;
+    margin-top: 16px;
 
 }
 .imagesAbeer>img:hover{
