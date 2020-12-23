@@ -1400,7 +1400,7 @@ body {
 	transform: scale(1.3);
 }
 
-.SHOPNOW{
+.SHOPNOWbutton{
     transition: .5s;
     opacity: 0;
     position: absolute;
@@ -1409,15 +1409,15 @@ body {
     justify-content: center;
     text-align: center;
     justify-items: center;
-    transform: translate(-50%, -50%);
+    transform: translate(-147%, 345%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
     cursor: pointer;
-    top: 28%;
-    left: 42%;
+    /* top: 110%; */
+    right: 452px;
+    left: 59%;
     border-radius: 20px;
     box-shadow: 0 2px 9px rgba(186, 186, 186, 0.5);
-
     background: burlywood;
 }
 .text{
@@ -1425,21 +1425,22 @@ body {
     font-size: 16px;
     padding: 16px 32px;
 }
-.imagesAbeer:hover .SHOPNOW{
+.imagesAbeer:hover .SHOPNOWbutton{
     opacity: 1;
 }
-.description{
-    position: absolute;
-    top: 26%;
-    left: 14%;
-    width: 17%;
+
+.descriptionAbeer{
+  
+    width: 190px;
+    color: black;
+    height: 6px;
     color: black;
     transform: translate(-50%, -50%);
     font-size: larger;
     transition: .5s;
     opacity: 0;
 }
-.imagesAbeer:hover .description{
+.imagesAbeer:hover .descriptionAbeer{
     opacity: 1;
 }
 /* .images>.description:hover{
@@ -1448,3 +1449,19 @@ body {
   margin: 5px;
 	transform: scale(1.3);
 } */
+.description{
+   
+    width: 190px;
+    color: black;
+    height: 6px;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    transition: .5s;
+    opacity: 0;
+}
+.imagesAbeer:hover .description{
+    opacity: 1;
+}
+.text{
+    color: black;
+}
