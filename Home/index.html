@@ -2486,7 +2486,19 @@ The following part can be removed on Server for On Demand Loading) -->
             async
             defer
         ></script>
+        <script>
+            const AbeerImage = document.querySelector(".imagesAbeer");
 
+            const descriptionAbeer = document.querySelector(".descriptionAbeer");
+
+            descriptionAbeer.addEventListener("mouseover",function(){
+                AbeerImage.style.opacity= "0.3";
+                AbeerImage.style.margin= "5px";
+                AbeerImage.style.transform = "scale(1.3)";
+
+            })
+
+        </script>
         <!-- ==== END JAVASCRIPT FILES ==== -->
     </body>
 </html>
